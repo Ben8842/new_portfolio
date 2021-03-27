@@ -2,6 +2,28 @@
   text-align: center;
 }
 
+.col-sm-3 {
+  text-align: center;
+}
+
+.col-md-2 {
+  text-align: center;
+}
+
+.primary {
+  color: red;
+  background-color: yellow;
+  height: 400px;
+  width: 100%;
+}
+.secondary {
+  color: red;
+
+  height: 400px;
+  background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.veracode.com%2Fblog%2Fsecure-development%2Fwhat-developers-need-know-about-state-software-security-today&psig=AOvVaw3b0JL5SJP4gw54EH_69YEJ&ust=1616882957058000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNCxpsb8zu8CFQAAAAAdAAAAABAN");
+  width: 100%;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
