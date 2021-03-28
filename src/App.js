@@ -10,6 +10,7 @@ import Background6 from "./img/software.jpg";
 import Background7 from "./img/softwaretwo.jpg";
 import Background8 from "./img/code.jpg";
 import Background9 from "./img/computer.jpg";
+import Example from "./Example";
 
 //var gifimg = require("./imgfolder/spinningtwo.gif").default;
 
@@ -26,6 +27,7 @@ function App() {
         <Col md="2" sm="3">
           Contact Me
         </Col>
+        BENJAMIN PERKINS
       </Row>
       <Row
         className="secondary"
@@ -36,26 +38,43 @@ function App() {
           backgroundSize: "cover",
         }}
       >
+        <h1>ABOUT ME</h1>
         <Col md="9" sm="0"></Col>
-        <Col>About Me</Col>
-        <Col>Projects</Col>
-        <Col>Contact Me</Col>
+
+        <Col>
+          <h6>Name: Benjamin Perkins</h6>
+          <h6>Contact: perkinsben@yahoo.com </h6>
+          <h6>Status: Open for employment.</h6>
+          <h6>
+            Education:{" "}
+            <a id="edu" href="https://deepdiveeducation.com/">
+              Deep Dive Learning Academy
+            </a>
+          </h6>
+
+          <h6> Skills: </h6>
+          <h6>• React, Redux, JavaScript, Python, Java, HTML, CSS, XML</h6>
+          <h6>
+            • MongoDB, SQL, Mongoose, Express,
+            <h6>• GitHub, Heroku, Netlify, Visual Studio </h6>
+          </h6>
+          <h6>• FIX Protocol, PowerShell, FTP, TFS, JIRA</h6>
+        </Col>
       </Row>
       <Row className="primary">
-        <Col md="9" sm="0"></Col>
-        <Col>About Me</Col>
-        <Col>Projects</Col>
-        <Col>Contact Me</Col>
+        <h1>PROJECTS</h1>
+        <Example />
       </Row>
       <Row
         className="secondary"
         style={{
-          backgroundImage: `url(${Background})`,
+          backgroundImage: `url(${Background4})`,
           backgroundRepeat: "no-repeat",
           backgroundPosition: "center",
           backgroundSize: "cover",
         }}
-      >
+      ></Row>
+      <Row className="primary">
         <Col md="9" sm="0"></Col>
         <Col>About Me</Col>
         <Col>Projects</Col>
