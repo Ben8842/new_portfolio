@@ -75,6 +75,7 @@ function App() {
         }}
       ></Row>
       <Row className="primary">
+        <h1>CONATACT ME</h1>
         <Col md="9" sm="0"></Col>
         <Col>About Me</Col>
         <Col>Projects</Col>
