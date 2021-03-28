@@ -1,6 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
-import { Row, Col } from "reactstrap";
+import { Row, Col, Button } from "reactstrap";
 import Background from "./img/keyboard.jpg";
 import Background2 from "./img/keyboardtwo.jpg";
 import Background3 from "./img/keyboardthree.jpg";
@@ -75,11 +75,23 @@ function App() {
         }}
       ></Row>
       <Row className="primary">
-        <h1>CONATACT ME</h1>
-        <Col md="9" sm="0"></Col>
-        <Col>About Me</Col>
-        <Col>Projects</Col>
-        <Col>Contact Me</Col>
+        <h1>CONATACT ME @ perkinsben@yahoo.com</h1>
+        <hr></hr>
+        <Button color="secondary">
+          <a href="https://calendly.com/perkinsben">
+            Schedule a meeting with me
+          </a>
+        </Button>
+
+        <Button color="secondary">
+          <a href="https://github.com/Ben8842">GitHub Profile</a>
+        </Button>
+
+        <Button color="secondary">
+          <a href="https://www.linkedin.com/in/ben-perkins-91262b16">
+            Linkedin Profile
+          </a>
+        </Button>
       </Row>
       <Row
         className="secondary"

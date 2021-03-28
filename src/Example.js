@@ -35,6 +35,16 @@ const items = [
     altText: "Slide 3",
     caption: "Slide 3",
   },
+  {
+    src: projectArr[3],
+    altText: "Slide 4",
+    caption: "Slide 4",
+  },
+  {
+    src: projectArr[4],
+    altText: "Slide 5",
+    caption: "Slide 5",
+  },
 ];
 
 const Example = (props) => {
@@ -61,11 +71,12 @@ const Example = (props) => {
   const slides = items.map((item) => {
     return (
       <CarouselItem
+        className="carousel"
         onExiting={() => setAnimating(true)}
         onExited={() => setAnimating(false)}
         key={item.src}
       >
-        <img src={item.src} alt={item.altText} />
+        <img className="carousel" src={item.src} alt={item.altText} />
         <CarouselCaption
           captionText={item.caption}
           captionHeader={item.caption}
@@ -74,7 +85,12 @@ const Example = (props) => {
     );
   });
   return (
-    <Carousel activeIndex={activeIndex} next={next} previous={previous}>
+    <Carousel
+      className="carousel"
+      activeIndex={activeIndex}
+      next={next}
+      previous={previous}
+    >
       <CarouselIndicators
         items={items}
         activeIndex={activeIndex}
