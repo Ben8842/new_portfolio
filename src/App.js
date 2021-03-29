@@ -10,7 +10,7 @@ import Background6 from "./img/software.jpg";
 import Background7 from "./img/softwaretwo.jpg";
 import Background8 from "./img/code.jpg";
 import Background9 from "./img/computer.jpg";
-import Example from "./Example";
+import Slides from "./Slides";
 
 //var gifimg = require("./imgfolder/spinningtwo.gif").default;
 
@@ -63,7 +63,7 @@ function App() {
       </Row>
       <Row className="primary">
         <h1>PROJECTS</h1>
-        <Example />
+        <Slides />
       </Row>
       <Row
         className="secondary"

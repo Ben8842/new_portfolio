@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Row, Col, Button } from "reactstrap";
 
 import project2 from "./img/project/movieSix.PNG";
 import project3 from "./img/project/queene.PNG";
@@ -23,31 +24,59 @@ const items = [
   {
     src: projectArr[0],
     altText: "Slide 1",
-    caption: "Slide 1",
+    caption: (
+      <Button color="secondary">
+        <a href="https://optimistic-babbage-2ed085.netlify.app/">
+          Maze Algorithm
+        </a>
+      </Button>
+    ),
   },
   {
     src: projectArr[1],
-    altText: "Slide 2",
-    caption: "Slide 2",
+
+    caption: (
+      <Button color="secondary">
+        <a href="https://www.moviegame.fun/">Movie Game</a>
+      </Button>
+    ),
   },
   {
     src: projectArr[2],
-    altText: "Slide 3",
-    caption: "Slide 3",
+
+    caption: (
+      <Button color="secondary">
+        <a id="bproject" href="https://tender-benz-d42ce4.netlify.app/">
+          Queen Puzzle
+        </a>
+      </Button>
+    ),
   },
   {
     src: projectArr[3],
-    altText: "Slide 4",
-    caption: "Slide 4",
+
+    caption: (
+      <Button color="secondary">
+        <a id="bproject" href="https://jolly-meninsky-2047bc.netlify.app/">
+          Triangle
+        </a>
+      </Button>
+    ),
   },
   {
     src: projectArr[4],
-    altText: "Slide 5",
-    caption: "Slide 5",
+
+    caption: (
+      <Button color="secondary">
+        <a href="https://wordsearch-generator.herokuapp.com/">
+          Word Search Generator
+        </a>
+      </Button>
+    ),
   },
 ];
 
-const Example = (props) => {
+const Slides = (props) => {
   const [activeIndex, setActiveIndex] = useState(0);
   const [animating, setAnimating] = useState(false);
 
@@ -77,10 +106,7 @@ const Example = (props) => {
         key={item.src}
       >
         <img className="carousel" src={item.src} alt={item.altText} />
-        <CarouselCaption
-          captionText={item.caption}
-          captionHeader={item.caption}
-        />
+        <CarouselCaption captionHeader={item.caption} />
       </CarouselItem>
     );
   });
@@ -111,4 +137,4 @@ const Example = (props) => {
   );
 };
 
-export default Example;
+export default Slides;
