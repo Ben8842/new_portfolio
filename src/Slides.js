@@ -18,6 +18,10 @@ var projectArr = [
   require("./img/project/queene.PNG").default,
   require("./img/project/triangle2.png").default,
   require("./img/project/verticle.PNG").default,
+  require("./img/project/Snakepic.PNG").default,
+  require("./img/project/Cryptopic.PNG").default,
+  require("./img/project/Emojipic.PNG").default,
+  require("./img/project/Triviapic.PNG").default,
 ];
 
 const items = [
@@ -74,6 +78,46 @@ const items = [
       </Button>
     ),
   },
+  {
+    src: projectArr[5],
+
+    caption: (
+      <Button color="secondary">
+        <a href="https://admiring-spence-0175e7.netlify.app/">Snake Game</a>
+      </Button>
+    ),
+  },
+  {
+    src: projectArr[6],
+
+    caption: (
+      <Button color="secondary">
+        <a href="https://ben8842.github.io/BitProject/">
+          Cryptocurrency Project
+        </a>
+      </Button>
+    ),
+  },
+  {
+    src: projectArr[7],
+
+    caption: (
+      <Button color="secondary">
+        <a id="bproject" href="https://vibrant-spence-207a4e.netlify.app/">
+          Emoji Game
+        </a>
+      </Button>
+    ),
+  },
+  {
+    src: projectArr[8],
+
+    caption: (
+      <Button color="secondary">
+        <a href="https://trivia-redux.herokuapp.com/">Trivia App</a>
+      </Button>
+    ),
+  },
 ];
 
 const Slides = (props) => {
@@ -100,7 +144,7 @@ const Slides = (props) => {
   const slides = items.map((item) => {
     return (
       <CarouselItem
-        className="carousel"
+        className="carouselT"
         onExiting={() => setAnimating(true)}
         onExited={() => setAnimating(false)}
         key={item.src}
@@ -113,7 +157,7 @@ const Slides = (props) => {
   return (
     <div className="carouselContainer">
       <Carousel
-        className="carousel"
+        className="carouselT"
         activeIndex={activeIndex}
         next={next}
         previous={previous}

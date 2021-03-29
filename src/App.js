@@ -29,7 +29,7 @@ function App() {
         </Col>
         BENJAMIN PERKINS
       </Row>
-      <Row
+      <div
         className="secondary"
         style={{
           backgroundImage: `url(${Background})`,
@@ -60,7 +60,7 @@ function App() {
           </h6>
           <h6>• FIX Protocol, PowerShell, FTP, TFS, JIRA</h6>
         </Col>
-      </Row>
+      </div>
       <div className="primary">
         <h1>PROJECTS</h1>
         <Slides />

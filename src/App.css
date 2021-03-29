@@ -2,6 +2,14 @@
   text-align: center;
 }
 
+.carousel {
+  background-size: cover;
+  height: 500px;
+  width: 500px;
+  text-align: center;
+  align-items: center;
+}
+
 .carouselContainer {
   text-align: center;
 }
@@ -70,7 +78,7 @@ Button {
     text-align: center;
   }
   h1 {
-    text-align: center;
+    text-align: left;
     align-items: center;
   }
   .col-sm-3 {
@@ -132,9 +140,13 @@ Button {
   }
   .carousel {
     background-size: cover;
-    max-height: 300px;
-    max-width: 300px;
+    height: 100%;
+    width: 100%;
     text-align: center;
     align-items: center;
+  }
+
+  .carousel-inner {
+    background-size: cover;
   }
 }
