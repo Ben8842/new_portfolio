@@ -61,10 +61,10 @@ function App() {
           <h6>• FIX Protocol, PowerShell, FTP, TFS, JIRA</h6>
         </Col>
       </Row>
-      <Row className="primary">
+      <div className="primary">
         <h1>PROJECTS</h1>
         <Slides />
-      </Row>
+      </div>
       <Row
         className="secondary"
         style={{
@@ -143,12 +143,7 @@ function App() {
           backgroundPosition: "center",
           backgroundSize: "cover",
         }}
-      >
-        <Col md="9" sm="0"></Col>
-        <Col>About Me</Col>
-        <Col>Projects</Col>
-        <Col>Contact Me</Col>
-      </Row>
+      ></Row>
       <Row
         className="secondary"
         style={{
@@ -157,12 +152,7 @@ function App() {
           backgroundPosition: "center",
           backgroundSize: "cover",
         }}
-      >
-        <Col md="9" sm="0"></Col>
-        <Col>About Me</Col>
-        <Col>Projects</Col>
-        <Col>Contact Me</Col>
-      </Row>
+      ></Row>
       <Row
         className="secondary"
         style={{
@@ -171,12 +161,7 @@ function App() {
           backgroundPosition: "center",
           backgroundSize: "cover",
         }}
-      >
-        <Col md="9" sm="0"></Col>
-        <Col>About Me</Col>
-        <Col>Projects</Col>
-        <Col>Contact Me</Col>
-      </Row>
+      ></Row>
       <Row
         className="secondary"
         style={{
@@ -185,12 +170,7 @@ function App() {
           backgroundPosition: "center",
           backgroundSize: "cover",
         }}
-      >
-        <Col md="9" sm="0"></Col>
-        <Col>About Me</Col>
-        <Col>Projects</Col>
-        <Col>Contact Me</Col>
-      </Row>
+      ></Row>
       <Row
         className="secondary"
         style={{
@@ -199,12 +179,7 @@ function App() {
           backgroundPosition: "center",
           backgroundSize: "cover",
         }}
-      >
-        <Col md="9" sm="0"></Col>
-        <Col>About Me</Col>
-        <Col>Projects</Col>
-        <Col>Contact Me</Col>
-      </Row>
+      ></Row>
     </div>
   );
 }
