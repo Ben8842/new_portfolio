@@ -11,6 +11,8 @@ import Background7 from "./img/softwaretwo.jpg";
 import Background8 from "./img/code.jpg";
 import Background9 from "./img/computer.jpg";
 import Slides from "./Slides";
+import Diamond from "./components/Diamond.js";
+import Bar from "./components/Bar.js";
 
 //var gifimg = require("./imgfolder/spinningtwo.gif").default;
 
@@ -21,6 +23,7 @@ function App() {
         <span class="topmenu">About Me</span>
         <span class="topmenu">Projects</span>
         <span class="topmenu"> Contact Me</span>
+        <Bar pixelSize="sml" height="8" width="50" />
         <h5>BENJAMIN PERKINS</h5>
       </div>
       <div
