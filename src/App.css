@@ -7,15 +7,40 @@ h5 {
   padding: 10px;
 }
 
+#mazedecor {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+#mazedecor2 {
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+#mazedecor3 {
+  position: fixed;
+  top: 0;
+  right: 20;
+}
+
+#mazedecor4 {
+  position: fixed;
+  top: 0;
+  right: 30;
+}
+
 .top {
   color: white;
   background-color: rgba(15, 146, 228, 0.281);
-  height: 40px;
+  height: 80px;
   width: 110%;
-  position: -webkit-sticky; /* Safari */
-  position: sticky;
+
+  position: fixed;
   top: 0;
   z-index: 3;
+  font-size: 24px;
 }
 
 .topmenu {
@@ -251,10 +276,11 @@ button:focus {
     background-color: rgba(28, 149, 224, 0.157);
     height: 40px;
     width: 110%;
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
+    position: fixed;
+
     top: 0;
     z-index: 3;
+    font-size: 14px;
   }
 
   a:link {
@@ -447,5 +473,29 @@ button:focus {
 
   .bSquare--orange2 {
     background-color: rgb(250, 218, 158);
+  }
+
+  #mazedecor {
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+
+  #mazedecor2 {
+    position: fixed;
+    top: 0;
+    right: 10px;
+  }
+
+  #mazedecor3 {
+    position: fixed;
+    top: 0;
+    right: 20px;
+  }
+
+  #mazedecor4 {
+    position: fixed;
+    top: 0;
+    right: 30px;
   }
 }

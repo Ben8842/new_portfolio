@@ -26,31 +26,43 @@ function App() {
           style={{
             display: "flex",
             listStyle: "none",
-            justifyContent: "space-around",
+            justifyContent: "center",
           }}
         >
-          <li>
-            <Link activeClass="active" to="home" spy={true} smooth={true}>
-              Home
-            </Link>
-          </li>
-          <li>
+          <li
+            style={{
+              padding: "10px",
+            }}
+          >
             <Link to="about" spy={true} smooth={true}>
               About
             </Link>
           </li>
-          <li>
+          <li
+            style={{
+              padding: "10px",
+            }}
+          >
             <Link to="contact" spy={true} smooth={true}>
               Contact
             </Link>
           </li>
-          <li>
+          <li
+            style={{
+              padding: "10px",
+            }}
+          >
             <Link to="projects" spy={true} smooth={true}>
               Projects
             </Link>
           </li>
         </ul>
-        <Bar pixelSize="sml" height="5" width="50" />
+        <div id="mazedecor">
+          <Bar pixelSize="sml" height="5" width="50" />
+        </div>
+        <div id="mazedecor2">
+          <Diamond pixelSize="sml" height="10" />
+        </div>
       </div>
       <div
         id="about"
