@@ -2,6 +2,31 @@
   text-align: center;
 }
 
+h5 {
+  text-align: center;
+  padding: 10px;
+}
+
+.top {
+  color: white;
+  background-color: rgb(0, 23, 37);
+  height: 100px;
+  width: 140%;
+
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+.topmenu {
+  padding: 10px;
+  margin-left: 50px;
+}
+
+.bpad {
+  padding: 40px;
+}
+
 .carousel {
   background-size: cover;
   height: 500px;
@@ -96,6 +121,17 @@ Button {
     width: 140%;
   }
 
+  .top {
+    color: white;
+    background-color: rgb(0, 23, 37);
+    height: 100px;
+    width: 140%;
+
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  }
+
   a:link {
     color: white;
     background-color: transparent;
@@ -126,6 +162,10 @@ Button {
     text-decoration: none;
   }
 
+  .bpad {
+    padding: 40px;
+  }
+
   Button {
     height: 50px;
     width: 150px;
@@ -148,5 +188,14 @@ Button {
 
   .carousel-inner {
     background-size: cover;
+  }
+
+  .topmenu {
+    padding: 5px;
+    font-size: 10px;
+  }
+  h5 {
+    text-align: center;
+    padding: 10px;
   }
 }

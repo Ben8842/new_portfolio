@@ -17,18 +17,12 @@ import Slides from "./Slides";
 function App() {
   return (
     <div>
-      <Row className="primary">
-        <Col md={{ offset: 6, size: 2 }} sm={{ offset: 0, size: 3 }}>
-          About Me
-        </Col>
-        <Col md="2" sm="3">
-          Projects
-        </Col>
-        <Col md="2" sm="3">
-          Contact Me
-        </Col>
-        BENJAMIN PERKINS
-      </Row>
+      <div className="top">
+        <span class="topmenu">About Me</span>
+        <span class="topmenu">Projects</span>
+        <span class="topmenu"> Contact Me</span>
+        <h5>BENJAMIN PERKINS</h5>
+      </div>
       <div
         className="secondary"
         style={{
@@ -65,35 +59,7 @@ function App() {
         <h1>PROJECTS</h1>
         <Slides />
       </div>
-      <Row
-        className="secondary"
-        style={{
-          backgroundImage: `url(${Background4})`,
-          backgroundRepeat: "no-repeat",
-          backgroundPosition: "center",
-          backgroundSize: "cover",
-        }}
-      ></Row>
-      <Row className="primary">
-        <h1>CONATACT ME @ perkinsben@yahoo.com</h1>
-        <hr></hr>
-        <Button color="secondary">
-          <a href="https://calendly.com/perkinsben">
-            Schedule a meeting with me
-          </a>
-        </Button>
-
-        <Button color="secondary">
-          <a href="https://github.com/Ben8842">GitHub Profile</a>
-        </Button>
-
-        <Button color="secondary">
-          <a href="https://www.linkedin.com/in/ben-perkins-91262b16">
-            Linkedin Profile
-          </a>
-        </Button>
-      </Row>
-      <Row
+      <div
         className="secondary"
         style={{
           backgroundImage: `url(${Background2})`,
@@ -102,84 +68,28 @@ function App() {
           backgroundSize: "cover",
         }}
       >
-        <Col md="9" sm="0"></Col>
-        <Col>About Me</Col>
-        <Col>Projects</Col>
-        <Col>Contact Me</Col>
-      </Row>
-      <Row
-        className="secondary"
-        style={{
-          backgroundImage: `url(${Background3})`,
-          backgroundRepeat: "no-repeat",
-          backgroundPosition: "center",
-          backgroundSize: "cover",
-        }}
-      >
-        <Col md="9" sm="0"></Col>
-        <Col>About Me</Col>
-        <Col>Projects</Col>
-        <Col>Contact Me</Col>
-      </Row>
-      <Row
-        className="secondary"
-        style={{
-          backgroundImage: `url(${Background4})`,
-          backgroundRepeat: "no-repeat",
-          backgroundPosition: "center",
-          backgroundSize: "cover",
-        }}
-      >
-        <Col md="9" sm="0"></Col>
-        <Col>About Me</Col>
-        <Col>Projects</Col>
-        <Col>Contact Me</Col>
-      </Row>
-      <Row
-        className="secondary"
-        style={{
-          backgroundImage: `url(${Background5})`,
-          backgroundRepeat: "no-repeat",
-          backgroundPosition: "center",
-          backgroundSize: "cover",
-        }}
-      ></Row>
-      <Row
-        className="secondary"
-        style={{
-          backgroundImage: `url(${Background6})`,
-          backgroundRepeat: "no-repeat",
-          backgroundPosition: "center",
-          backgroundSize: "cover",
-        }}
-      ></Row>
-      <Row
-        className="secondary"
-        style={{
-          backgroundImage: `url(${Background7})`,
-          backgroundRepeat: "no-repeat",
-          backgroundPosition: "center",
-          backgroundSize: "cover",
-        }}
-      ></Row>
-      <Row
-        className="secondary"
-        style={{
-          backgroundImage: `url(${Background8})`,
-          backgroundRepeat: "no-repeat",
-          backgroundPosition: "center",
-          backgroundSize: "cover",
-        }}
-      ></Row>
-      <Row
-        className="secondary"
-        style={{
-          backgroundImage: `url(${Background9})`,
-          backgroundRepeat: "no-repeat",
-          backgroundPosition: "center",
-          backgroundSize: "cover",
-        }}
-      ></Row>
+        <h1>CONATACT ME @ perkinsben@yahoo.com</h1>
+
+        <div class="bpad">
+          <Button color="secondary">
+            <a href="https://calendly.com/perkinsben">
+              Schedule a meeting with me
+            </a>
+          </Button>
+        </div>
+        <div class="bpad">
+          <Button color="secondary">
+            <a href="https://github.com/Ben8842">GitHub Profile</a>
+          </Button>
+        </div>
+        <div class="bpad">
+          <Button color="secondary">
+            <a href="https://www.linkedin.com/in/ben-perkins-91262b16">
+              Linkedin Profile
+            </a>
+          </Button>
+        </div>
+      </div>
     </div>
   );
 }
