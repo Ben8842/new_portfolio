@@ -21,9 +21,11 @@ function App() {
     <div>
       <div className="top">
         <span class="topmenu">About Me</span>
+
         <span class="topmenu">Projects</span>
+
         <span class="topmenu"> Contact Me</span>
-        <Bar pixelSize="sml" height="8" width="50" />
+        <Bar pixelSize="sml" height="5" width="100" />
         <h5>BENJAMIN PERKINS</h5>
       </div>
       <div
@@ -37,7 +39,6 @@ function App() {
       >
         <h1>ABOUT ME</h1>
         <Col md="9" sm="0"></Col>
-
         <Col>
           <h6>Name: Benjamin Perkins</h6>
           <h6>Contact: perkinsben@yahoo.com </h6>

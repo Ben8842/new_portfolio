@@ -30,11 +30,19 @@ class Bar extends Component {
   }
 
   renderSquare(x, y) {
-    var { pathO, stepback, sizeHold } = this.state;
+    var { pathO, stepback, sizeHold, icon } = this.state;
 
     var i = null;
     for (i = 0; i < pathO.length; i++) {
-      if (
+      if (stepback === pathO.length && x === icon[0] && y === icon[1]) {
+        return (
+          <button
+            className={"bSquare bSquare--grey bSquare--" + sizeHold}
+            codex={x}
+            codey={y}
+          ></button>
+        );
+      } else if (
         x === pathO[pathO.length - 1][0] &&
         y === pathO[pathO.length - 1][1] &&
         stepback < pathO.length

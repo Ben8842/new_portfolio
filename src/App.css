@@ -11,7 +11,7 @@ h5 {
   color: white;
   background-color: rgb(15, 146, 228);
   height: 100px;
-  width: 140%;
+  width: 110%;
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
@@ -243,14 +243,14 @@ button:focus {
     color: white;
     background-color: rgb(0, 23, 37);
     height: 800px;
-    width: 140%;
+    width: 110%;
   }
 
   .top {
     color: white;
     background-color: rgb(28, 149, 224);
     height: 100px;
-    width: 140%;
+    width: 110%;
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
@@ -296,7 +296,7 @@ button:focus {
 
     height: 600px;
 
-    width: 140%;
+    width: 110%;
   }
   .carousel {
     background-size: cover;
