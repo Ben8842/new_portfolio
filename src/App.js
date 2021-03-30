@@ -25,7 +25,7 @@ function App() {
         <span class="topmenu">Projects</span>
 
         <span class="topmenu"> Contact Me</span>
-        <Bar pixelSize="sml" height="5" width="100" />
+        <Bar pixelSize="sml" height="5" width="78" />
         <h5>BENJAMIN PERKINS</h5>
       </div>
       <div

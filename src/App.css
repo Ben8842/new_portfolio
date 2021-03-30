@@ -110,11 +110,11 @@ a:active {
 }
 
 .newLine {
-  height: 4px;
+  height: 8px;
 }
 
 .newLine--sml {
-  height: 4px;
+  height: 8px;
 }
 
 .newLine--med {
@@ -161,8 +161,8 @@ button:focus {
 }
 
 .bSquare--sml {
-  height: 4px;
-  width: 4px;
+  height: 8px;
+  width: 8px;
 }
 
 .bSquare--med {
