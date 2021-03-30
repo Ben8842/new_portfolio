@@ -9,13 +9,13 @@ h5 {
 
 .top {
   color: white;
-  background-color: rgb(0, 23, 37);
+  background-color: rgb(15, 146, 228);
   height: 100px;
   width: 140%;
-
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
+  z-index: 3;
 }
 
 .topmenu {
@@ -123,13 +123,13 @@ Button {
 
   .top {
     color: white;
-    background-color: rgb(0, 23, 37);
+    background-color: rgb(28, 149, 224);
     height: 100px;
     width: 140%;
-
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
+    z-index: 3;
   }
 
   a:link {
