@@ -13,6 +13,7 @@ import Background9 from "./img/computer.jpg";
 import Slides from "./Slides";
 import Diamond from "./components/Diamond.js";
 import Bar from "./components/Bar.js";
+import { Link } from "react-scroll";
 
 //var gifimg = require("./imgfolder/spinningtwo.gif").default;
 
@@ -20,15 +21,39 @@ function App() {
   return (
     <div>
       <div className="top">
-        <span class="topmenu">About Me</span>
-
-        <span class="topmenu">Projects</span>
-
-        <span class="topmenu"> Contact Me</span>
-        <Bar pixelSize="sml" height="5" width="78" />
-        <h5>BENJAMIN PERKINS</h5>
+        <ul
+          className="top"
+          style={{
+            display: "flex",
+            listStyle: "none",
+            justifyContent: "space-around",
+          }}
+        >
+          <li>
+            <Link activeClass="active" to="home" spy={true} smooth={true}>
+              Home
+            </Link>
+          </li>
+          <li>
+            <Link to="about" spy={true} smooth={true}>
+              About
+            </Link>
+          </li>
+          <li>
+            <Link to="contact" spy={true} smooth={true}>
+              Contact
+            </Link>
+          </li>
+          <li>
+            <Link to="projects" spy={true} smooth={true}>
+              Projects
+            </Link>
+          </li>
+        </ul>
+        <Bar pixelSize="sml" height="5" width="50" />
       </div>
       <div
+        id="about"
         className="secondary"
         style={{
           backgroundImage: `url(${Background})`,
@@ -59,11 +84,12 @@ function App() {
           <h6>• FIX Protocol, PowerShell, FTP, TFS, JIRA</h6>
         </Col>
       </div>
-      <div className="primary">
+      <div className="primary" id="projects">
         <h1>PROJECTS</h1>
         <Slides />
       </div>
       <div
+        id="contact"
         className="secondary"
         style={{
           backgroundImage: `url(${Background2})`,

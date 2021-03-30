@@ -9,8 +9,8 @@ h5 {
 
 .top {
   color: white;
-  background-color: rgb(15, 146, 228);
-  height: 100px;
+  background-color: rgba(15, 146, 228, 0.281);
+  height: 40px;
   width: 110%;
   position: -webkit-sticky; /* Safari */
   position: sticky;
@@ -248,8 +248,8 @@ button:focus {
 
   .top {
     color: white;
-    background-color: rgb(28, 149, 224);
-    height: 100px;
+    background-color: rgba(28, 149, 224, 0.157);
+    height: 40px;
     width: 110%;
     position: -webkit-sticky; /* Safari */
     position: sticky;
