@@ -60,6 +60,9 @@ function App() {
         <div id="mazedecor0">
           <Bar pixelSize="sml" height="5" width="75" />
         </div>
+        <div id="mazedecor00">
+          <Bar pixelSize="sml" height="5" width="75" />
+        </div>
         <div id="mazedecor">
           <Bar pixelSize="sml" height="5" width="75" />
         </div>
@@ -118,15 +121,9 @@ function App() {
           backgroundSize: "cover",
         }}
       >
-        <h1>CONATACT ME @ perkinsben@yahoo.com</h1>
+        <h1>CONATACT</h1>
+        <h6>Email: perkinsben@yahoo.com</h6>
 
-        <div class="bpad">
-          <Button color="secondary">
-            <a href="https://calendly.com/perkinsben">
-              Schedule a meeting with me
-            </a>
-          </Button>
-        </div>
         <div class="bpad">
           <Button color="secondary">
             <a href="https://github.com/Ben8842">GitHub Profile</a>
@@ -136,6 +133,14 @@ function App() {
           <Button color="secondary">
             <a href="https://www.linkedin.com/in/ben-perkins-91262b16">
               Linkedin Profile
+            </a>
+          </Button>
+        </div>
+        <div class="bpad">
+          <h6>Schedule a Zoom meeting with me here:</h6>
+          <Button color="secondary">
+            <a href="https://calendly.com/perkinsben">
+              Calendly.com/perkinsben
             </a>
           </Button>
         </div>

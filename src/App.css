@@ -2,18 +2,32 @@
   text-align: center;
 }
 
+h1 {
+  margin-top: 40px;
+}
+
 h5 {
   text-align: center;
   padding: 10px;
+}
+
+div {
+  overflow-x: hidden;
 }
 
 #mazedecor {
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 2;
 }
 
 #mazedecor0 {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+#mazedecor00 {
   position: fixed;
   top: 0;
   left: 0;
@@ -45,7 +59,7 @@ h5 {
 
   position: fixed;
   top: 0;
-  z-index: 3;
+  z-index: 1;
   font-size: 24px;
 }
 
@@ -55,7 +69,7 @@ h5 {
 }
 
 .bpad {
-  padding: 40px;
+  padding: 20px;
 }
 
 .carousel {
@@ -285,7 +299,7 @@ button:focus {
     position: fixed;
 
     top: 0;
-    z-index: 3;
+    z-index: 1;
     font-size: 14px;
   }
 
@@ -320,7 +334,7 @@ button:focus {
   }
 
   .bpad {
-    padding: 40px;
+    padding: 20px;
   }
 
   .secondary {
@@ -404,6 +418,7 @@ button:focus {
 
     margin: 0px;
     text-align: center;
+    z-index: 2;
   }
 
   .bSquare--sml {
@@ -473,6 +488,7 @@ button:focus {
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 2;
   }
 
   #mazedecor2 {
@@ -497,5 +513,16 @@ button:focus {
     position: fixed;
     top: 0;
     left: 0;
+  }
+  #mazedecor00 {
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  div {
+    overflow-x: hidden;
+  }
+  h1 {
+    margin-top: 40px;
   }
 }
