@@ -204,11 +204,7 @@ class Project extends Component {
           Next
         </Button>
         <br></br>
-        <Button color="secondary">
-          <a href={project[projectHolder].link}>
-            {project[projectHolder].name}
-          </a>
-        </Button>
+
         <img
           className="carousel"
           src={project[projectHolder].src}
@@ -219,6 +215,13 @@ class Project extends Component {
 
     return (
       <div>
+        <div class="links">
+          <Button color="secondary">
+            <a href={project[projectHolder].link}>
+              {project[projectHolder].name}
+            </a>
+          </Button>
+        </div>
         <ButtonToolbar>
           <ButtonGroup>
             <Button value="1" onClick={(e) => this.showProject(e)}>
