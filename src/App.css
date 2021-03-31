@@ -524,36 +524,41 @@ button:focus {
 
   #mazedecor {
     position: fixed;
-    top: 0;
-    left: 0;
+    top: 50px;
+    left: 12px;
   }
 
   #mazedecor2 {
     position: fixed;
     top: 0;
-    right: 10px;
+    right: 50px;
   }
 
   #mazedecor3 {
     position: fixed;
     top: 0;
-    right: 20px;
+    right: 110px;
   }
 
   #mazedecor4 {
     position: fixed;
     top: 0;
-    right: 30px;
+    right: 170px;
+  }
+  #mazedecor5 {
+    position: fixed;
+    top: 0;
+    right: 240px;
   }
 
   #mazedecor0 {
     position: fixed;
-    top: 0;
-    left: 0;
+    top: 50px;
+    left: 12px;
   }
   #mazedecor00 {
     position: fixed;
-    top: 0;
-    left: 0;
+    top: 50px;
+    left: 12px;
   }
 }
