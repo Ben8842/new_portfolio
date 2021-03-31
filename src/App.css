@@ -318,13 +318,14 @@ button:focus {
   .top {
     color: white;
     background-color: rgba(28, 149, 224, 0.157);
-    height: 40px;
+    height: 80px;
     width: 100%;
     position: fixed;
 
-    top: 0;
+    top: 0px;
     z-index: 1;
     font-size: 14px;
+    padding: 20px;
   }
 
   a:link {
@@ -528,7 +529,7 @@ button:focus {
 
   #mazedecor {
     position: fixed;
-    top: 50px;
+    top: 0px;
     left: 12px;
   }
 
@@ -557,12 +558,12 @@ button:focus {
 
   #mazedecor0 {
     position: fixed;
-    top: 50px;
+    top: 0px;
     left: 12px;
   }
   #mazedecor00 {
     position: fixed;
-    top: 50px;
+    top: 0px;
     left: 12px;
   }
 

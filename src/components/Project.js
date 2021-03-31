@@ -28,7 +28,7 @@ class Project extends Component {
       contactFlag: false,
       projectFlag: false,
       homeFlag: false,
-      projectHolder: 1,
+      projectHolder: 0,
     };
   }
 
@@ -154,42 +154,42 @@ class Project extends Component {
       },
       {
         src: projectArr[1],
-        link: "https://optimistic-babbage-2ed085.netlify.app/",
+        link: "https://www.moviegame.fun/",
         name: "Movie Game",
       },
       {
         src: projectArr[2],
-        link: "https://optimistic-babbage-2ed085.netlify.app/",
-        name: "Queen Game",
+        link: "https://tender-benz-d42ce4.netlify.app/",
+        name: "Queen Puzzle",
       },
       {
         src: projectArr[3],
-        link: "https://optimistic-babbage-2ed085.netlify.app/",
+        link: "https://jolly-meninsky-2047bc.netlify.app/",
         name: "Triangle",
       },
       {
         src: projectArr[4],
-        link: "https://optimistic-babbage-2ed085.netlify.app/",
+        link: "https://wordsearch-generator.herokuapp.com/",
         name: "Word Search Generato",
       },
       {
         src: projectArr[5],
-        link: "https://optimistic-babbage-2ed085.netlify.app/",
+        link: "https://admiring-spence-0175e7.netlify.app/",
         name: "Snake Game",
       },
       {
         src: projectArr[6],
-        link: "https://optimistic-babbage-2ed085.netlify.app/",
+        link: "https://ben8842.github.io/BitProject/",
         name: "Cryptocurrency Project",
       },
       {
         src: projectArr[7],
-        link: "https://optimistic-babbage-2ed085.netlify.app/",
+        link: "https://vibrant-spence-207a4e.netlify.app/",
         name: "Emoji Game",
       },
       {
         src: projectArr[8],
-        link: "https://optimistic-babbage-2ed085.netlify.app/",
+        link: "https://trivia-redux.herokuapp.com/",
         name: "Trivia",
       },
     ];
