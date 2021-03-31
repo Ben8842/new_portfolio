@@ -58,9 +58,15 @@ function App() {
           </li>
         </ul>
         <div id="mazedecor">
-          <Bar pixelSize="sml" height="5" width="50" />
+          <Bar pixelSize="sml" height="5" width="75" />
         </div>
         <div id="mazedecor2">
+          <Diamond pixelSize="sml" height="10" />
+        </div>
+        <div id="mazedecor3">
+          <Diamond pixelSize="sml" height="10" />
+        </div>
+        <div id="mazedecor4">
           <Diamond pixelSize="sml" height="10" />
         </div>
       </div>
@@ -98,7 +104,6 @@ function App() {
       </div>
       <div className="primary" id="projects">
         <h1>PROJECTS</h1>
-        <Slides />
       </div>
       <div
         id="contact"
@@ -137,3 +142,5 @@ function App() {
 }
 
 export default App;
+
+//  <Slides />

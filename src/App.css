@@ -268,14 +268,14 @@ button:focus {
     color: white;
     background-color: rgb(0, 23, 37);
     height: 800px;
-    width: 110%;
+    width: 100%;
   }
 
   .top {
     color: white;
     background-color: rgba(28, 149, 224, 0.157);
     height: 40px;
-    width: 110%;
+    width: 100%;
     position: fixed;
 
     top: 0;
@@ -322,7 +322,7 @@ button:focus {
 
     height: 600px;
 
-    width: 110%;
+    width: 100%;
   }
   .carousel {
     background-size: cover;
@@ -337,24 +337,12 @@ button:focus {
   }
 
   .topmenu {
-    padding: 5px;
+    padding: 2px;
     font-size: 10px;
   }
   h5 {
     text-align: center;
     padding: 10px;
-  }
-
-  .bgrey {
-    border: none;
-    background-color: rgba(107, 105, 107, 0);
-    color: white;
-    padding: 0;
-    font-size: 5px;
-    margin: 0px;
-    height: 50px;
-    text-align: center;
-    width: 50px;
   }
 
   #divinside {
