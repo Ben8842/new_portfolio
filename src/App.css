@@ -11,6 +11,10 @@ h5 {
   padding: 10px;
 }
 
+.links {
+  text-align: center;
+  padding: 10px;
+}
 /*div {
   overflow-x: hidden;
 }*/
@@ -560,5 +564,10 @@ button:focus {
     position: fixed;
     top: 50px;
     left: 12px;
+  }
+
+  .links {
+    text-align: center;
+    padding: 10px;
   }
 }

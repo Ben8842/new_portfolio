@@ -12,6 +12,7 @@ import Background8 from "./img/code.jpg";
 import Background9 from "./img/computer.jpg";
 import Slides from "./Slides";
 import Diamond from "./components/Diamond.js";
+import Project from "./components/Project.js";
 import Bar from "./components/Bar.js";
 import { Link } from "react-scroll";
 import React, { Component } from "react";
@@ -120,7 +121,7 @@ class App extends Component {
             >
               <Link
                 to="about"
-                spy={true}
+                spy={false}
                 smooth={true}
                 onClick={() => this.linkingA()}
               >
@@ -176,9 +177,7 @@ class App extends Component {
           <div id="mazedecor00">
             <Bar pixelSize="sml" height="5" width="75" />
           </div>
-          <div id="mazedecor">
-            <Bar pixelSize="sml" height="5" width="75" />
-          </div>
+
           {aboutFlag ? aboutMaze : null}
           {contactFlag ? contactMaze : null}
           {homeFlag ? homeMaze : null}
@@ -233,6 +232,7 @@ class App extends Component {
         </div>
         <div className="primary" id="projects">
           <h1>PROJECTS</h1>
+          <Project />
         </div>
         <div
           id="contact"
