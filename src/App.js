@@ -16,7 +16,15 @@ import Bar from "./components/Bar.js";
 import { Link } from "react-scroll";
 
 //var gifimg = require("./imgfolder/spinningtwo.gif").default;
-
+/*  <div id="mazedecor2">
+          <Diamond pixelSize="sml" height="10" />
+        </div>
+        <div id="mazedecor3">
+          <Diamond pixelSize="sml" height="10" />
+        </div>
+        <div id="mazedecor4">
+          <Diamond pixelSize="sml" height="10" />
+        </div> */
 function App() {
   return (
     <div>
@@ -74,15 +82,6 @@ function App() {
         </div>
         <div id="mazedecor">
           <Bar pixelSize="sml" height="5" width="75" />
-        </div>
-        <div id="mazedecor2">
-          <Diamond pixelSize="sml" height="10" />
-        </div>
-        <div id="mazedecor3">
-          <Diamond pixelSize="sml" height="10" />
-        </div>
-        <div id="mazedecor4">
-          <Diamond pixelSize="sml" height="10" />
         </div>
       </div>
       <div
@@ -144,7 +143,7 @@ function App() {
           backgroundSize: "cover",
         }}
       >
-        <h1>CONATACT</h1>
+        <h1>CONTACT</h1>
         <h6>Email: perkinsben@yahoo.com</h6>
 
         <div class="bpad">

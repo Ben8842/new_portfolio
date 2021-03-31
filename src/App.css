@@ -130,6 +130,24 @@ a:active {
   text-decoration: none;
 }
 
+a.active {
+  color: rgb(255, 221, 249);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a.active:hover {
+  color: rgb(160, 252, 255);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a.visited {
+  color: rgb(255, 221, 249);
+  background-color: transparent;
+  text-decoration: none;
+}
+
 .secondary {
   color: white;
 
@@ -325,6 +343,24 @@ button:focus {
 
   a:active {
     color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  a.active {
+    color: rgb(255, 221, 249);
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  a.visited {
+    color: rgb(255, 221, 249);
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  a.hover {
+    color: rgb(253, 205, 205);
     background-color: transparent;
     text-decoration: none;
   }
