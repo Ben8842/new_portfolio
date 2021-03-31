@@ -3,7 +3,7 @@
 }
 
 h1 {
-  margin-top: 40px;
+  padding: 40px;
 }
 
 h5 {
@@ -11,15 +11,14 @@ h5 {
   padding: 10px;
 }
 
-div {
+/*div {
   overflow-x: hidden;
-}
+}*/
 
 #mazedecor {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 2;
 }
 
 #mazedecor0 {
@@ -98,6 +97,7 @@ h1 {
   height: 800px;
   width: 100%;
   padding: 50px;
+  overflow-x: hidden;
 }
 
 a:link {
@@ -136,6 +136,7 @@ a:active {
   height: 600px;
   padding: 50px;
   width: 100%;
+  overflow-x: hidden;
 }
 
 .bgrey {
@@ -289,6 +290,7 @@ button:focus {
     background-color: rgb(0, 23, 37);
     height: 800px;
     width: 100%;
+    overflow-x: hidden;
   }
 
   .top {
@@ -343,6 +345,7 @@ button:focus {
     height: 600px;
 
     width: 100%;
+    overflow-x: hidden;
   }
   .carousel {
     background-size: cover;
@@ -418,7 +421,6 @@ button:focus {
 
     margin: 0px;
     text-align: center;
-    z-index: 2;
   }
 
   .bSquare--sml {
@@ -488,7 +490,6 @@ button:focus {
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 2;
   }
 
   #mazedecor2 {
@@ -518,11 +519,5 @@ button:focus {
     position: fixed;
     top: 0;
     left: 0;
-  }
-  div {
-    overflow-x: hidden;
-  }
-  h1 {
-    margin-top: 40px;
   }
 }

@@ -56,6 +56,15 @@ function App() {
               Projects
             </Link>
           </li>
+          <li
+            style={{
+              padding: "10px",
+            }}
+          >
+            <Link to="home" spy={true} smooth={true}>
+              Home
+            </Link>
+          </li>
         </ul>
         <div id="mazedecor0">
           <Bar pixelSize="sml" height="5" width="75" />
@@ -77,6 +86,20 @@ function App() {
         </div>
       </div>
       <div
+        id="home"
+        className="secondary"
+        style={{
+          backgroundImage: `url(${Background5})`,
+          backgroundRepeat: "no-repeat",
+          backgroundPosition: "center",
+          backgroundSize: "cover",
+        }}
+      >
+        <h1>Benjamin Perkins</h1>
+
+        <h3>Developer</h3>
+      </div>
+      <div
         id="about"
         className="secondary"
         style={{
@@ -86,7 +109,7 @@ function App() {
           backgroundSize: "cover",
         }}
       >
-        <h1>ABOUT ME</h1>
+        <h1>ABOUT</h1>
         <Col md="9" sm="0"></Col>
         <Col>
           <h6>Name: Benjamin Perkins</h6>
