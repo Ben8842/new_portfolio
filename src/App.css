@@ -13,22 +13,28 @@ h5 {
   left: 0;
 }
 
+#mazedecor0 {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
 #mazedecor2 {
   position: fixed;
   top: 0;
-  right: 0;
+  right: 10px;
 }
 
 #mazedecor3 {
   position: fixed;
   top: 0;
-  right: 20;
+  right: 20px;
 }
 
 #mazedecor4 {
   position: fixed;
   top: 0;
-  right: 30;
+  right: 30px;
 }
 
 .top {
@@ -485,5 +491,11 @@ button:focus {
     position: fixed;
     top: 0;
     right: 30px;
+  }
+
+  #mazedecor0 {
+    position: fixed;
+    top: 0;
+    left: 0;
   }
 }

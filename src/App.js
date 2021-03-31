@@ -57,6 +57,9 @@ function App() {
             </Link>
           </li>
         </ul>
+        <div id="mazedecor0">
+          <Bar pixelSize="sml" height="5" width="75" />
+        </div>
         <div id="mazedecor">
           <Bar pixelSize="sml" height="5" width="75" />
         </div>
