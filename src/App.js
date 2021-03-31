@@ -16,6 +16,8 @@ import Project from "./components/Project.js";
 import Bar from "./components/Bar.js";
 import { Link } from "react-scroll";
 import React, { Component } from "react";
+//import ReactCSSTransitionGroup from "react-transition-group";
+//import ReactTransitionGroup from "react-addons-transition-group";
 
 //var gifimg = require("./imgfolder/spinningtwo.gif").default;
 /*  <div id="mazedecor2">

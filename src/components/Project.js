@@ -196,13 +196,6 @@ class Project extends Component {
 
     const projectContainer = (
       <div class="links">
-        <Button color="secondary" onClick={() => this.prevNum()}>
-          Prev
-        </Button>
-
-        <Button color="secondary" onClick={() => this.nextNum()}>
-          Next
-        </Button>
         <br></br>
 
         <img
@@ -221,38 +214,46 @@ class Project extends Component {
               {project[projectHolder].name}
             </a>
           </Button>
+          <div>&nbsp;</div>
+
+          <ButtonToolbar>
+            <ButtonGroup size="sm">
+              <Button color="secondary" onClick={() => this.prevNum()}>
+                Prev
+              </Button>
+              <Button value="1" onClick={(e) => this.showProject(e)}>
+                1
+              </Button>
+              <Button value="2" onClick={(e) => this.showProject(e)}>
+                2
+              </Button>
+              <Button value="3" onClick={(e) => this.showProject(e)}>
+                3
+              </Button>
+              <Button value="4" onClick={(e) => this.showProject(e)}>
+                4
+              </Button>
+              <Button value="5" onClick={(e) => this.showProject(e)}>
+                5
+              </Button>
+              <Button value="6" onClick={(e) => this.showProject(e)}>
+                6
+              </Button>
+              <Button value="7" onClick={(e) => this.showProject(e)}>
+                7
+              </Button>
+              <Button value="8" onClick={(e) => this.showProject(e)}>
+                8
+              </Button>
+              <Button value="9" onClick={(e) => this.showProject(e)}>
+                9
+              </Button>{" "}
+              <Button color="secondary" onClick={() => this.nextNum()}>
+                Next
+              </Button>
+            </ButtonGroup>
+          </ButtonToolbar>
         </div>
-        <ButtonToolbar>
-          <ButtonGroup>
-            <Button value="1" onClick={(e) => this.showProject(e)}>
-              1
-            </Button>
-            <Button value="2" onClick={(e) => this.showProject(e)}>
-              2
-            </Button>
-            <Button value="3" onClick={(e) => this.showProject(e)}>
-              3
-            </Button>
-            <Button value="4" onClick={(e) => this.showProject(e)}>
-              4
-            </Button>
-            <Button value="5" onClick={(e) => this.showProject(e)}>
-              5
-            </Button>
-            <Button value="6" onClick={(e) => this.showProject(e)}>
-              6
-            </Button>
-            <Button value="7" onClick={(e) => this.showProject(e)}>
-              7
-            </Button>
-            <Button value="8" onClick={(e) => this.showProject(e)}>
-              8
-            </Button>
-            <Button value="9" onClick={(e) => this.showProject(e)}>
-              9
-            </Button>
-          </ButtonGroup>
-        </ButtonToolbar>
         {projectContainer}
       </div>
     );
